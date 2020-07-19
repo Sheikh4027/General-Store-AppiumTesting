@@ -24,16 +24,17 @@ public class base {
 		Properties prop = new Properties();
 		prop.load(fis);
 		
-		String device=(String) prop.get("device");
+		//String device=(String) prop.get("device");
 		
 		
 		File f = new File ("src");
 		File apk = new File(f,(String) prop.get(app));
 		
 		
+		 String device= System.getProperty("deviceName");
 		
 		
-		
+		 
 		DesiredCapabilities cap = new DesiredCapabilities(); 
       cap.setCapability(MobileCapabilityType.DEVICE_NAME, device);
       cap.setCapability(MobileCapabilityType.APP, apk.getAbsolutePath());
@@ -45,6 +46,8 @@ public class base {
       return driver;
 
 }
+
+
 }
 
 
