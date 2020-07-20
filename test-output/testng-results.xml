@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-18T13:14:50 EDT" name="Default suite" finished-at="2020-07-18T13:17:24 EDT" duration-ms="153539">
+  <suite started-at="2020-07-19T20:26:13 EDT" name="Default suite" finished-at="2020-07-19T20:27:16 EDT" duration-ms="63093">
     <groups>
     </groups>
-    <test started-at="2020-07-18T13:14:50 EDT" name="Default test" finished-at="2020-07-18T13:17:24 EDT" duration-ms="153539">
+    <test started-at="2020-07-19T20:26:13 EDT" name="Default test" finished-at="2020-07-19T20:27:16 EDT" duration-ms="63093">
       <class name="appium.GeneralStore.GeneralStoreHomePage">
-        <test-method signature="TotalValidation()[pri:0, instance:appium.GeneralStore.GeneralStoreHomePage@ef9296d]" started-at="2020-07-18T13:14:50 EDT" name="TotalValidation" finished-at="2020-07-18T13:15:53 EDT" duration-ms="63061" status="PASS">
+        <test-method signature="TotalValidation()[pri:0, instance:appium.GeneralStore.GeneralStoreHomePage@149e0f5d]" started-at="2020-07-19T20:26:13 EDT" name="TotalValidation" finished-at="2020-07-19T20:27:16 EDT" duration-ms="63052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TotalValidation -->
       </class> <!-- appium.GeneralStore.GeneralStoreHomePage -->
-      <class name="appium.GeneralStore.validatingCheckOutPage">
-        <test-method signature="checkOutValidation()[pri:0, instance:appium.GeneralStore.validatingCheckOutPage@36c88a32]" started-at="2020-07-18T13:15:53 EDT" name="checkOutValidation" finished-at="2020-07-18T13:16:53 EDT" duration-ms="59172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOutValidation -->
-      </class> <!-- appium.GeneralStore.validatingCheckOutPage -->
-      <class name="appium.GeneralStore.NegtiveTestHomePage">
-        <test-method signature="HomePageValidation()[pri:0, instance:appium.GeneralStore.NegtiveTestHomePage@7880cdf3]" started-at="2020-07-18T13:16:53 EDT" name="HomePageValidation" finished-at="2020-07-18T13:17:24 EDT" duration-ms="31265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePageValidation -->
-      </class> <!-- appium.GeneralStore.NegtiveTestHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

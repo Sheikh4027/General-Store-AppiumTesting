@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appium.GeneralStore.NegtiveTestHomePage">
+      <class name="appium.GeneralStore.GeneralStoreHomePage">
         <methods>
-          <include name="HomePageValidation"/>
+          <include name="TotalValidation"/>
         </methods>
-      </class> <!-- appium.GeneralStore.NegtiveTestHomePage -->
+      </class> <!-- appium.GeneralStore.GeneralStoreHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
