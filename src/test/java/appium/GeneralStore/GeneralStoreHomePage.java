@@ -33,7 +33,7 @@ public class GeneralStoreHomePage extends base {
 		
 		AndroidDriver<AndroidElement> driver = Capabilities("GeneralStoreApp");
 		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		
 		driver.findElementByClassName("android.widget.Spinner").click();
@@ -49,7 +49,12 @@ public class GeneralStoreHomePage extends base {
 
 		driver.findElementByAndroidUIAutomator("text(\"Let's  Shop\")").click();
 		
-         driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click();
+		
+		//driver.findElementById("com.androidsample.generalstore:id/productImage").click();
+		
+		 driver.findElementByAndroidUIAutomator("text(\"Air Jordan 1 Mid SE\")").click();
+		 driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click();
+		 
 		
          driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"PG 3\"));").click();
          driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click(); 

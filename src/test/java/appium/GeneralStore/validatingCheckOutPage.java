@@ -26,7 +26,7 @@ public class validatingCheckOutPage extends base {
 		
 		AndroidDriver<AndroidElement> driver = Capabilities("GeneralStoreApp");
 		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		
 		
@@ -43,9 +43,12 @@ public class validatingCheckOutPage extends base {
 
 		driver.findElementByAndroidUIAutomator("text(\"Let's  Shop\")").click();
 		
-         driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click();
-		
-         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"PG 3\"));").click();
+        
+		 driver.findElementByAndroidUIAutomator("text(\"Air Jordan 1 Mid SE\"))").click();
+		 driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click();
+		 
+		  
+         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"PG 3\"))").click();
          driver.findElementsByAndroidUIAutomator("text(\"ADD TO CART\")").get(1).click(); 
          
         Thread.sleep(2000);
